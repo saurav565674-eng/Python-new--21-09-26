@@ -1,4 +1,4 @@
-def deleteAllOccurrences(arr: List[int], X: int) -> List[int]:
+def deleteAllOccurrences(arr: list[int], X: int) -> list[int]:
     j=0
     for i in range(0,len(arr)):
         if arr[i] != X:
