@@ -1,4 +1,4 @@
-def insertZeroAfterEveryElement(arr: List[int] ) -> List[int]:
+def insertZeroAfterEveryElement(arr: list[int] ) -> list[int]:
     new=[]
     for i in arr:
         new.append(i)
