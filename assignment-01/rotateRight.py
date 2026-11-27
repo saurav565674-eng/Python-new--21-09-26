@@ -1,4 +1,4 @@
-def rotateArray(arr: List[int], r: int) -> List[int]:
+def rotateArray(arr: list[int], r: int) -> list[int]:
     n=len(arr)
     if n==0:
         return arr
